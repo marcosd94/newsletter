@@ -1,0 +1,212 @@
+
+body {
+	color: white;
+	background-color: white;
+}
+
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+.cabecera {
+	background-image: url("fondo.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.edicion {
+	float: right;
+	margin-right: 30px;
+	text-align: center;
+}
+
+.fecha {
+	padding-top: 12px;
+	padding-left: 15px;
+	padding-right: 15px;
+	background-color: #59753e;
+	padding-bottom: 4px;
+	border-radius: 0px 0px 10px 10px;
+	font-family: 'Scala_SansRegular_LF';
+	font-size: 12px;
+
+}
+
+.numero {
+	padding-top: 3px;
+	font-family: 'Scala_Sans';
+}
+
+.logo {
+	max-width: 28%;
+	margin-left: 10%;
+	margin-top: 65px;
+}
+
+.titulo {
+	margin-left: 10%;
+	font-size: 5vh;
+	font-family: 'Scala_Sans';
+}
+.titulo div {
+	font-size: 8vh;
+	font-family: 'Scala_SansRegular_LF';
+	letter-spacing: 4px;
+}
+
+.redes {
+	border-radius: 15px 0px 0px 15px;
+	background-color: #b1cd49;
+	float: right;
+	margin-top: -140px;
+	padding: 10px 20px 10px 8px;
+}
+
+.redes div {
+	margin-top: 20px;
+}
+
+.redes div img {
+	max-width: 25px;
+	max-height: 25px;
+}
+
+.subtitulo {
+	float: left;
+	color: gray;
+}
+
+.recomendacion-container {
+	padding: 30px 14px 30px 14px;
+	background-color: #497536;
+	float: right;
+	border-radius: 25px 2px 2px 2px;
+}
+
+.recomendacion-container img {
+	max-width: 250px;
+}
+
+.container-legislaciones {
+	margin-left: 10%;
+	width: 38%;
+	float: left;
+	overflow: auto;
+}
+
+.container-jurisprudencias {
+	margin-left: 4%;
+	width: 38%;
+	float: left;
+	overflow: auto;
+}
+
+.cuadro-legislacion {
+	padding: 2px 12px 2px 12px;
+	text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+.normal-container {
+	padding-left: 10%;
+	padding-right: 10%;
+	text-align: justify;
+}
+
+.full-width  {
+	width: 100%;
+}
+
+.bg-gray  {
+	background-color: #5b5c5e;
+	padding-bottom: 4px;
+} 
+
+.bg-white-gray {
+	background-color: #dbdcde;
+	overflow: auto;
+}
+
+.bg-white {
+	background-color: white;
+	overflow: auto;
+}
+
+.bg-green {
+	background-color: #587d35;
+}
+
+.bg-green-lemon {
+	background-color: #84a13f;
+}
+
+.cuadro-titulo {
+	padding: 5px;
+	color: gray;
+}
+
+.margin-top-5 {
+	margin-top: 5px;
+}
+
+.margin-top-10 {
+	margin-top: 10px;
+}
+
+.margin-top-20 {
+	margin-top: 20px;
+}
+
+.margin-top-30 {
+	margin-top: 30px;
+}
+
+.margin-top-40 {
+	margin-top: 40px;
+}
+
+.margin-top-80 {
+	margin-top: 80px;
+}
+
+.padding-bottom-10 {
+	padding-bottom: 10px;
+}
+
+.padding-bottom-20 {
+	padding-bottom: 20px;
+}
+
+@font-face {
+	font-family: "Scala_SansRegular_LF";
+	src: url("Scala_SansRegular_LF.ttf");
+}
+
+@font-face {
+	font-family: "Scala_Sans";
+	src: url("Scala_Sans.otf");}
+
+@font-face {
+	font-family: "MyriadPro";
+	src: url("MyriadPro-Regular.otf");}
+
+.f-scala-sans {
+	font-family: 'Scala_Sans';
+}
+
+.f-scala-sans-lf {
+	font-family: 'Scala_SansRegular_LF';
+}
+
+.f-myriad-pro {
+	font-family: 'MyriadPro';
+}
